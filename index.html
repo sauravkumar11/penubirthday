@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Love Path 💕</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <audio id="bg-music" loop>
+      <source src="romantic.mp3" type="audio/mp3" />
+    </audio>
+
+    <div class="hearts-container"></div>
+
+    <div class="timeline-wrapper">
+      <h2 class="title">Our Journey 💖</h2>
+
+      <div class="timeline">
+        <!-- Path -->
+        <svg class="path-svg" viewBox="0 0 200 2600" preserveAspectRatio="none">
+          <path
+            d="
+      M 100 0
+      C 80 120, 120 240, 100 360
+      C 80 480, 120 600, 100 720
+      C 80 840, 120 960, 100 1080
+      C 80 1200, 120 1320, 100 1440
+      C 80 1560, 120 1680, 100 1800
+      C 80 1920, 120 2040, 100 2160
+      C 80 2280, 120 2400, 100 2520
+    "
+          />
+        </svg>
+
+        <!-- JS will inject steps here -->
+        <div id="steps-container"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
